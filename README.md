@@ -12,6 +12,7 @@ $ cd foo
 $ npm i
 $ npm run dev
 ```
+or
 
 ```bash
 $ vue init daliborgogic/express-vue-boilerplate foo && cd foo && npm i && npm run dev
