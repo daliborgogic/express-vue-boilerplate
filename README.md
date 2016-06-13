@@ -7,7 +7,7 @@
 This is a project template for vue-cli.
 
 ```bash
-$ npm install -g vue-cli
+$ npm i -g vue-cli
 $ vue init daliborgogic/express-vue-boilerplate foo
 $ cd foo
 $ npm i
