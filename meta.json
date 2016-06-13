@@ -1,0 +1,23 @@
+{
+  "schema": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "label": "Express Vue"
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "label": "A full-featured BrowserSync + Browserify + vueify setup with hot-reload, linting & unit testing.",
+      "default": "A Express.js + Vue.js boilerplate"
+    },
+    "author": {
+      "type": "string",
+      "label": "Dalibor Gogic <mail@daliborgogic.com> (https://daliborgogic.com)"
+    },
+    "private": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

@@ -1,0 +1,25 @@
+doctype html
+html(lang= lang)
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='description' content= description)
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title= title
+    link(rel='manifest' href='/manifest.json')
+    meta(name='mobile-web-app-capable' content='yes')
+    meta(name='application-name' content= title)
+    link(rel='icon' sizes='192x192' href='/img/touch/chrome-touch-icon-192x192.png')
+    meta(name='theme-color' content= color)
+    //- Twitter Card
+    meta(name='twitter:card' content='summary_large_image')
+    meta(name='twitter:title' content= title)
+    meta(name='twitter:description' content= description)
+    //- Image must be less than 1MB in size
+    meta(name='twitter:image' content= image)
+    //- Facebook
+    //- At least 1200 x 630 px
+    meta(property='og:image' content= image)
+    link(rel='stylesheet' href='/css/main.css')
+  body
+    block content
