@@ -5,8 +5,8 @@
 
 <template lang="pug">
   .hello
-    h1 {{ msg }}
-    p Welcome to {{ msg }}
+    h1 \{{ msg }}
+    p Welcome to \{{ msg }}
 </template>
 
 <script>
