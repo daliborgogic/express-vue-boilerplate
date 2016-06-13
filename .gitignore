@@ -1,2 +1,4 @@
 template/node_modules
 .directory
+public/js/main.js
+public/css/main.css
