@@ -35,5 +35,5 @@ Use your preferred .eslintrc config. Don't forget to keep the plugin field so th
 You can fork this repo to create your own boilerplate, and use it with vue-cli:
 
 ```bash
-vue init username/repo foo
+$ vue init username/repo foo
 ```
