@@ -8,7 +8,7 @@
   "license": "MIT",
   "main": "server.js",
   "scripts": {
-    "stylus": "stylus --watch --sourcemap-inline public/css/main.styl -o public/css/main.css && browser-sync reload --port 4000 --files="public/css/main.css"",
+    "stylus": "stylus --watch --sourcemap-inline public/css/main.styl -o public/css/main.css && browser-sync reload --port 4000 --files=\"public/css/main.css\"",
     "sync": "browser-sync start --ws -f 'public/css/main.css' --proxy localhost:3000 --port 4000 --reload-delay=300 --reload-debounce=500",
     "watchify": "watchify -p browserify-hmr client.js -o public/js/main.js",
     "serve": "nodemon -e pug server.js",
