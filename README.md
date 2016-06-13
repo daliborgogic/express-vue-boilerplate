@@ -4,14 +4,17 @@
 
 ### Usage
 
-This is a project template for vue-cli.
+This is a project template for [vue-cli](https://github.com/vuejs/vue-cli).
 
 ```bash
-$ npm i -g vue-cli
 $ vue init daliborgogic/express-vue-boilerplate foo
 $ cd foo
 $ npm i
 $ npm run dev
+```
+
+```bash
+$ vue init daliborgogic/express-vue-boilerplate foo && cd foo && npm i && npm run dev
 ```
 
 ### What's Included
