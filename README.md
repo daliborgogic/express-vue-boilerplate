@@ -1,6 +1,6 @@
 # express-vue-boilerplate
 
-> A full-featured BrowserSync + Browserify + vueify setup with hot-reload, linting & unit testing.
+> A full-featured BrowserSync + Browserify + watchify + vueify setup with hot-reload, linting & unit testing.
 
 ### Usage
 
@@ -16,7 +16,7 @@ $ npm run dev
 
 ### What's Included
 
-`npm run dev`: BrowserSync + Browserify + vueify with proper config for source map & hot-reload.
+`npm run dev`: BrowserSync + Browserify + watchify + vueify with proper config for source map & hot-reload.
 
 `npm run lint`: Lint JavaScript and *.vue files with ESLint.
 
@@ -30,21 +30,8 @@ Install additional libraries that you need, e.g. vue-router, vue-resource, vuex,
 
 Use your preferred .eslintrc config. Don't forget to keep the plugin field so that ESLint can lint *.vue files.
 
-Add your preferred CSS pre-processor, for example:
+### Fork It And Make Your Own
 
-```bash
-npm i -D stylus
-```
-
-Then you can do:
-
-```vue
-<style lang="stylus">
-  /* write with style! */
-</style>
-```
-
-Fork It And Make Your Own
 You can fork this repo to create your own boilerplate, and use it with vue-cli:
 
 ```bash
