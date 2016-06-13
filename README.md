@@ -1,13 +1,14 @@
 # express-vue-boilerplate
 
 > A full-featured BrowserSync + Browserify + vueify setup with hot-reload, linting & unit testing.
-Usage
+
+### Usage
 
 This is a project template for vue-cli.
 
 ```bash
 $ npm install -g vue-cli
-$ vue init username/repo foo
+$ vue init daliborgogic/express-vue-boilerplate foo
 $ cd foo
 $ npm i
 $ npm run dev
