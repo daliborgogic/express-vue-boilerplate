@@ -9,7 +9,7 @@
     "watchify": "watchify -p browserify-hmr client.js -o public/js/main.js",
     "serve": "nodemon server.js",
     "dev": "npm-run-all --parallel sync stylus watchify serve",
-    "build": "cross-env NODE_ENV=production  -e client.js | uglifyjs -c warnings=false -m > public/js/main.js",
+    "build": "cross-env NODE_ENV=production browserify client.js | uglifyjs -c warnings=false -m > public/js/main.js",
     "lint": "eslint --ignore-path .gitignore --ext .js,.vue ./ || exit 0",
     "test": "ava -v"
   },
