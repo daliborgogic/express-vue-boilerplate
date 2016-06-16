@@ -13,5 +13,6 @@ npm run dev
 
 # lint all *.js and *.vue files
 npm run lint
+```
 
 For more information see the [docs for vueify](https://github.com/vuejs/vueify).
